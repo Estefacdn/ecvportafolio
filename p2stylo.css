@@ -1,0 +1,59 @@
+header{
+
+    background-color: black;
+
+
+}
+
+header nav li{
+
+    font-size: 22px;
+    display: flex;
+    padding: 2rem 0;
+    margin: 20px;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+header nav li:hover{
+
+    background-color: #b9bb49;
+    color: black;
+}
+
+header nav a{
+
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: inherit;
+   
+
+}
+
+header li{
+    
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+
+}
+
+.logo-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+img{
+    width: 200px;
+    float: left;
+    padding: 10px;
+}
