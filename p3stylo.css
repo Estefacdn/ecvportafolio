@@ -1,0 +1,166 @@
+header{
+
+    background-color: #333;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+header nav li{
+
+    font-size: 22px;
+    padding: 1rem 0;
+    margin: 20px;
+    color: white;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+header nav li:hover{
+    background-color: #FFCD00;
+    color:#D29BFD;
+    padding: 0.5rem 1rem;
+}
+
+header nav a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.container{
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.logo-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logito{
+    width: 200px;
+    float: left;
+    padding: 10px;
+}
+
+main{
+    padding-top: 5rem;
+}
+
+
+.banner{
+    background-image: url(img/Banner.jpg);
+    padding: 400px 50px;
+    position: relative;
+    z-index:1;
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner::after{
+    content: "";
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height:100%;
+    top: 0;
+    left:0;
+    opacity:0.4;
+    z-index:-1;
+}
+
+.banner a {
+
+    background-color: #FFCD00;
+    border-radius: 15px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.banner a:hover{
+    
+    background-color: #D29BFD;
+    opacity: 0.20;
+
+}
+
+.banner .maxtam{
+    margin: auto 0 auto 40px;
+}
+
+.estilotex .text1{
+    margin-bottom: -25px;
+    font-size: 50px;
+    color: #b9bb49;
+}
+.estilotex .text2{
+    margin-bottom: -20px;
+    font-weight: 900;
+    font-size: 80px;
+    color: #fff;
+}
+.estilotex .text3{
+    font-size: 50px;
+    color: #b9bb49;
+}
+
+.articulo{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 2em;
+    padding: 2em;
+    text-align: center;
+    font-size: 25px;
+}
+
+.articulo .titulo{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+
+}
+
+footer{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: #333;
+    padding: 20px 23px;
+    text-align: center;
+    justify-content: space-between;
+    
+        
+}
+.texfot{
+    padding: 20px 20px;
+
+}
+
+.orden{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.links{
+    display: flex;
+    
+}
+.links ul{
+    display: flex;
+    
+}
+.rsociales{
+    list-style: none;
+    
+    
+   
+}
+.links a{
+    padding: 10px 20px;
+    font-size: 40PX;
+    color: #FFCD00;
+}
