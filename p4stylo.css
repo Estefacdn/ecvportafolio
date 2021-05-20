@@ -47,7 +47,7 @@ header nav a{
 }
 
 main{
-    padding-top: 5rem;
+    padding-top: 2rem;
 }
 
 
@@ -90,8 +90,27 @@ main{
 }
 
 .banner .maxtam{
-    margin: auto 0 auto 40px;
-  }
+    margin: auto 0 auto 10px;
+}
+
+.tituloprin{
+
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: black;
+    padding-bottom: 20px;
+    margin: 1rem;
+    
+}
+
+.cajita{
+    padding: 2rem;
+    object-position: center;
+    
+}
+
+
 
 .estilotex .text1{
     margin-bottom: -25px;
@@ -109,12 +128,23 @@ main{
     color: #b9bb49;
 }
 
+.imgsize{
+    width: 200px;
+    padding: 10px;
+    margin-left: 6rem;
+    display: flex;
+}
+
+.maxtam{
+    margin: auto 0 auto 40px;
+}
+
 .articulo{
     font-family: 'Roboto', sans-serif;
-    margin-top: 2em;
-    padding: 2em;
+    margin-top: 0.5em;
+    padding: 0.5em;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .articulo .titulo{
@@ -122,6 +152,61 @@ main{
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
 
+}
+
+.lred{
+    display: block;
+    margin: auto;
+}
+
+.namered{
+    display: inline-block;
+    font-family: 'Monteserrat', sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+.redes{
+    list-style:none;
+    
+}
+
+.titulo{
+
+    font-family: 'Roboto', sans-serif;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    display: flexbox;
+
+}
+
+.progress-bar{
+    color: blueviolet;
+
+}
+
+form{
+    width: 650px;
+    margin: auto;
+    background-color: #FFCD00;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+
+}
+
+input{
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+}
+textarea{
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
 }
 
 footer{
@@ -149,7 +234,7 @@ footer{
     display: flex;
     
 }
-.links ul{
+.links .lsocial{
     display: flex;
     
 }
@@ -164,4 +249,3 @@ footer{
     font-size: 40PX;
     color: #FFCD00;
 }
-
